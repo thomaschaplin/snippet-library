@@ -1,0 +1,25 @@
+{
+  "name": "Snippet Library",
+  "version": "1.0.0",
+  "description": "A variety of JavaScript snippets to aid development and testing",
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "js/menu.js",
+      "js/background.js"
+    ]
+  },
+  "web_accessible_resources": [
+    "js/*"
+  ],
+  "permissions": [
+    "contextMenus",
+    "activeTab"
+  ],
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
