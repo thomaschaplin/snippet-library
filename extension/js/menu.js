@@ -9,7 +9,7 @@ const menuActions = [
 
     { menu: "W", "title": "Exploits", menuref: "W>E", file: "" },
     { menu: "W>E", "title": "Injection: SQL", file: "js/web/exploits/sql.js", instant: false },
-    { menu: "W>E", "title": "Injection: XSS ", file: "js/web/exploits/xss.js", instant: false },
+    { menu: "W>E", "title": "Injection: XSS", file: "js/web/exploits/xss.js", instant: false },
 
 
     { menu: "W", "title": "Accessibility", menuref: "W>A", file: "" },
@@ -104,7 +104,7 @@ const menuActions = [
 
 
     { menu: "W", "title": "Styling", menuref: "W>S", file: "" },
-    { menu: "W>S", "title": "Pritty Print: CSS File", file: "js/web/styling/cssPrettifier.js", instant: false },
+    { menu: "W>S", "title": "Pretty Print: CSS File", file: "js/web/styling/cssPrettifier.js", instant: false },
     { menu: "W>S", "title": "CSS: Insert", file: "js/web/styling/insertCss.js", instant: false },
     { menu: "W>S", "title": "CSS: Plain", file: "js/web/styling/plainCss.js", instant: false },
     { menu: "W>S", "title": "CSS: Remove", file: "js/web/styling/removeCss.js", instant: false },
