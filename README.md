@@ -100,6 +100,7 @@ Below is a list of snippets currently available with this extension
 <details>
   <summary>Miscellaneous</summary>
 
+   * Misc: Monkey Testing
    * Misc: Console Save
    * Misc: Log Globals
    * Misc: Remove Bloat

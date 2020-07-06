@@ -75,7 +75,8 @@ const menuActions = [
 
 
     { menu: "W", "title": "Miscellaneous", menuref: "W>M", file: "" },
-    { menu: "W>D", "title": "Misc: Console Save", file: "js/web/miscellaneous/consoleSave.js", instant: false },
+    { menu: "W>M", "title": "Misc: Monkey Testing", file: "js/web/miscellaneous/monkeyTesting.js", instant: false },
+    { menu: "W>M", "title": "Misc: Console Save", file: "js/web/miscellaneous/consoleSave.js", instant: false },
     { menu: "W>M", "title": "Misc: Log Globals", file: "js/web/miscellaneous/logGlobals.js", instant: false },
     { menu: "W>M", "title": "Misc: Remove Bloat", file: "js/web/miscellaneous/removeBloat.js", instant: false },
     { menu: "W>M", "title": "Misc: Restore Console", file: "js/web/miscellaneous/restoreConsole.js", instant: false },
