@@ -1,4 +1,3 @@
-
 const contextMenus = {}
 
 function findMenuRefItem(theMenuArray, theMenuRef) {
@@ -8,17 +7,6 @@ function findMenuRefItem(theMenuArray, theMenuRef) {
     }
   }
 }
-
-for (let actionindex = 0; actionindex < menuActions.length; actionindex++) {
-  if (menuActions[actionindex].menu === "") {
-    menuActions[actionindex].id = chrome.contextMenus.create({ "title": menuActions[actionindex].title, "type": "normal", contexts: ["all"] })
-  } else {
-    const parentId = findMenuRefItem(menuActions, menuActions[actionindex].menu)
-    menuActions[actionindex].id = chrome.contextMenus.create({ "title": menuActions[actionindex].title, "type": "normal", contexts: ["all"], "parentId": parentId })
-  }
-}
-
-chrome.contextMenus.onClicked.addListener(contextMenuClickHandler)
 
 function contextMenuClickHandler(info, tab) {
 
@@ -39,7 +27,7 @@ function contextMenuClickHandler(info, tab) {
     return
   }
 
-  const errorHandler = function () {
+  function errorHandler () {
     if (chrome.runtime.lastError) {
       console.error(chrome.runtime.lastError.message)
     }
@@ -79,5 +67,16 @@ function contextMenuClickHandler(info, tab) {
         }, errorHandler)
       }, errorHandler)
     })
+  }
+}
+
+chrome.contextMenus.onClicked.addListener(contextMenuClickHandler)
+
+for (let actionindex = 0; actionindex < menuActions.length; actionindex++) {
+  if (menuActions[actionindex].menu === "") {
+    menuActions[actionindex].id = chrome.contextMenus.create({ "title": menuActions[actionindex].title, "type": "normal", contexts: ["all"] })
+  } else {
+    const parentId = findMenuRefItem(menuActions, menuActions[actionindex].menu)
+    menuActions[actionindex].id = chrome.contextMenus.create({ "title": menuActions[actionindex].title, "type": "normal", contexts: ["all"], "parentId": parentId })
   }
 }
