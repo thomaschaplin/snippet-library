@@ -1,7 +1,7 @@
 {
   "name": "Snippet Library",
   "version": "1.0.0",
-  "description": "A variety of JavaScript snippets to aid development and testing",
+  "description": "A variety of JavaScript snippets to aid software development and testing",
   "background": {
     "persistent": true,
     "scripts": [
