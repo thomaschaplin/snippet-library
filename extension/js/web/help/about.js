@@ -1,1 +1,1 @@
-window.open("https://github.com/thomaschaplin/webdriverio")
+window.open("https://github.com/thomaschaplin/snippet-library")

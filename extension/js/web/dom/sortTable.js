@@ -22,7 +22,7 @@ function makeHeaderLink(tableNo, colNo, ord) {
     var link;
     link = document.createElement('a');
     link.href = 'javascript:sortTable(' + tableNo + ',' + colNo + ',' + ord + ');';
-    link.appendChild(document.createTextNode((ord > 0) ? 'a' : 'd'));
+    link.appendChild(document.createTextNode((ord > 0) ? 'asc ' : ' desc'));
     return link;
 }
 
