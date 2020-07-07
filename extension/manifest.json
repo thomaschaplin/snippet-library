@@ -19,7 +19,13 @@
   "manifest_version": 2,
   "icons": {
     "16": "icon16.png",
+    "20": "icon20.png",
+    "24": "icon24.png",
+    "32": "icon32.png",
     "48": "icon48.png",
-    "128": "icon128.png"
+    "64": "icon64.png",
+    "128": "icon128.png",
+    "256": "icon256.png",
+    "512": "icon512.png"
   }
 }
