@@ -4,7 +4,7 @@ A chrome extension with useful JavaScript snippets to aid software development a
 
 ## Installation
 
-- Download the latest release [here](https://github.com/thomaschaplin/snippet-library/releases)
+- Download the latest release [here](https://github.com/thomaschaplin/snippet-library/releases/latest)
 - Navigate to `chrome://extensions` within chrome
 - Enable `Developer mode` (a switch at the top right of the page)
 - Click `Load unpacked` button
