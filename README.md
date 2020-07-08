@@ -8,7 +8,7 @@ A chrome extension with useful JavaScript snippets to aid software development a
 - Navigate to `chrome://extensions` within chrome
 - Enable `Developer mode` (a switch at the top right of the page)
 - Click `Load unpacked` button
-- Browse to the `/extension` folder and choose this folder
+- Browse to the release downloded folder and choose this folder
 - Navigate to a website and then right click it to access the `Snippet Library` context menu
 - After executing a snippet you can see the code as a bookmarklet by viewing the DevTools console
 
