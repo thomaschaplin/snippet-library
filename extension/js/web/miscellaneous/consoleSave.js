@@ -1,9 +1,9 @@
-(function(console){
+(function(cs){
 
-    console.save = function(data, filename){
+    cs.save = function(data, filename){
 
         if(!data) {
-            console.error('Console.save: No data')
+            cs.error('Console.save: No data')
             return;
         }
 
