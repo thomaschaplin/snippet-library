@@ -5,7 +5,6 @@
         d.body.removeChild(e);
     }
     var u = 'https://www.wappalyzer.com/',
-        t = new Date().getTime(),
         c = d.createElement('div'),
         p = d.createElement('div'),
         l = d.createElement('link'),
